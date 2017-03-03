@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>03.03.2017</title>
+</head>
+<body>
+    <script>
+        
+        function season(x) {
+            if(x=='qiw'){
+                return '12, 1, 2';
+            } else if (x=='yaz'){
+                return '3, 4, 5';
+            } else if (x=='yay'){
+                return '6, 7, 8';
+            } else if (x=='payiz'){
+                return '9, 10, 11';
+            } else{
+                return false;
+            }
+        }
+
+        var ayTap = season('yay');
+
+        if(ayTap){
+            console.log(ayTap);
+        } else{
+            console.log('tapilmadi');
+        }
+    </script>
+</body>
+
+</html>
